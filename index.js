@@ -424,7 +424,7 @@ function connect2network(n, callback){
 
 
 vorpal
-  .command('connect node <url>', 'Connect to a server. For example "connect node 5.39.9.251:4000"')
+  .command('connect node <url>', 'Connect to a server. For example "connect node 88.198.67.196:6100"')
   .action(function(args, callback) {
     // reset an existing connection first
     if(server) {
