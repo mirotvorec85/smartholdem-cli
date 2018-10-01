@@ -1,0 +1,48 @@
+{
+  "name": "smartholdem-cli",
+  "version": "1.0.0",
+  "description": "Command Line Interface to SmartHoldem blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https:/:github.com/smartholdem/smartholdem-cli.git"
+  },
+  "keywords": [
+    "smartholdem",
+    "blockchain",
+    "spv",
+    "lite",
+    "cli"
+  ],
+  "bin": {
+    "smartholdem-cli": "index.js"
+  },
+  "author": "lordofbits",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "asciichart": "^0.1.7",
+    "async": "^2.1.5",
+    "bip39": "^2.2.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "chart": "github:jstrace/chart",
+    "cli-colors": "0.0.2",
+    "cli-spinners": "^1.0.0",
+    "clui": "^0.3.1",
+    "colors": "^1.1.2",
+    "cowsay": "^1.1.9",
+    "figlet": "^1.2.0",
+    "le-table": "^6.1.4",
+    "ledgerco": "github:ledgerhq/ledger-node-js-api#6cde5978b9d0a4922f0d33520b16cc2184559ebc",
+    "ora": "^1.1.0",
+    "q": "^1.5.0",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.4",
+    "sthjs": "git+https://github.com/smartholdem/sth-js.git#wallet",
+    "vorpal": "^1.11.4"
+  }
+}
