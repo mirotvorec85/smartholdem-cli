@@ -16,7 +16,7 @@ CLI client for SmartHoldem blockchain. You can connect to devnet, mainnet or you
 Node v > 8.0
 
 ```
-> npm install -g https://github.com/smartholdem/smartholdem-cli
+> npm install -g smartholdem-cli
 > smartholdem-cli
 
    _____                      __  __  __      __    __                  _________            __
@@ -32,7 +32,7 @@ smartholdem> help
     help [command...]                     Provides help for a given command.
     exit                                  Exits application.
     connect <network>                     Connect to network. Network is devnet or mainnet
-    connect node <url>                    Connect to a server. For example "connect node 88.198.67.196:6100"
+    connect node <url>                    Connect to a server. For example "connect node 212.237.17.171:6100"
     disconnect                            Disconnect from server or network
     network stats                         Get stats from network
     account status <address>              Get account status
