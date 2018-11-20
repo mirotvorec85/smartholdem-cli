@@ -853,7 +853,7 @@ vorpal
   });
 
 vorpal
-  .command('account send <amount> <address>', 'Send <amount> STH to <address>. <amount> format examples: 10, USD10.4, EUR100 !!! Do not use this is a future function')
+  .command('account send <amount> <address>', 'Send <amount> STH to <address>. <amount> format examples: 10, 10.25, 100')
   .action(function(args, callback) {
     var self = this;
     if(!isConnected()){
