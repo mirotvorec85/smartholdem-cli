@@ -32,7 +32,7 @@ smartholdem> help
     help [command...]                     Provides help for a given command.
     exit                                  Exits application.
     connect <network>                     Connect to network. Network is devnet or mainnet
-    connect node <url>                    Connect to a server. For example "connect node 5.39.9.251:4000"
+    connect node <url>                    Connect to a server. For example "connect node 88.198.67.196:6100"
     disconnect                            Disconnect from server or network
     network stats                         Get stats from network
     account status <address>              Get account status
