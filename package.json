@@ -15,7 +15,8 @@
     "blockchain",
     "spv",
     "lite",
-    "cli"
+    "cli",
+    "ledger"
   ],
   "bin": {
     "smartholdem-cli": "index.js"

@@ -262,7 +262,7 @@ async function populateLedgerAccounts() {
   ledgerAccounts = [];
   ///var accounts = [];
   var account_index = 0;
-  var path = network.hasOwnProperty('ledgerpath') ? network.ledgerpath : "44'/111'/";
+  var path = network.hasOwnProperty('ledgerpath') ? network.ledgerpath : "44'/255'/";
   var empty = false;
 
   while (!empty) {
