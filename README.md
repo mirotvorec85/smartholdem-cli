@@ -38,7 +38,7 @@ smartholdem> help
     account status <address>              Get account status
     account vote <name>                   Vote for delegate <name>. Remove previous vote if needed
     account unvote                        Remove previous vote
-    account send <amount> <address>       Send <amount> STH to <address>. <amount> format examples: 10, USD10.4, EUR100 !!! Do not use this is a future function
+    account send <amount> <address>       Send <amount> STH to <address>. <amount> format examples: 10, 10.50, 100
     account delegate <username>           Register new delegate with <username>
     account create                        Generate a new random cold account
     account vanity <string>               Generate an address containing lowercased <string> (WARNING you could wait for long)
